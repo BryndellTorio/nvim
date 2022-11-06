@@ -12,3 +12,7 @@ map('n', '<C-L>', '<C-W><C-L>', opts)
 map('n', '<C-H>', '<C-W><C-H>', opts)
 
 map('n', '<C-]>', ':foldclose', opts)
+
+-- Start Here!! Find a way to use space space s to resource the config file.
+map('n', '<leader><leader>s', 'source C:\\Users\\bryndell.torio\\AppData\\Local\nvim\\init.lua', opts)
+

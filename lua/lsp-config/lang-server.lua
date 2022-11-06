@@ -50,3 +50,16 @@ require('lspconfig')['ccls'].setup{
     flags = lsp_flags,
     capabilities = capabilities,
 }
+
+require('lspconfig')['sumneko_lua'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+    capabilities = capabilities,
+    settings = {
+        Lua = {
+            diagnostics = {
+                globals = { 'require', 'vim', 'use'}
+            }
+        }
+    }
+}
