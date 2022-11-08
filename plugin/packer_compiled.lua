@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
@@ -99,6 +109,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
     url = "https://github.com/onsails/lspkind.nvim"
   },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
@@ -108,11 +123,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
-  },
-  ["nvim-lsp-installer"] = {
-    loaded = true,
-    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
-    url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

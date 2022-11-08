@@ -10,5 +10,3 @@ map('n', '<C-J>', '<C-W><C-J>', opts)
 map('n', '<C-K>', '<C-W><C-K>', opts)
 map('n', '<C-L>', '<C-W><C-L>', opts)
 map('n', '<C-H>', '<C-W><C-H>', opts)
-
-map('n', '<C-]>', ':foldclose', opts)

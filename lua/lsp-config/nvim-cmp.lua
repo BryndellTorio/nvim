@@ -1,4 +1,4 @@
--- reference: https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion
+-- referonce: https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion
 -- NOTE: Still based on the guide from youtube. Link in the main init.lua file
 local luasnip = require 'luasnip'
 local cmp = require 'cmp'
@@ -40,20 +40,55 @@ cmp.setup {
     sources = {
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
+        { name = 'buffer' },
+        { name = 'path' },
     },
 
-    -- Based from this reference: https://github.com/onsails/lspkind.nvim youtube part2 time stamp: 15:00
-    formatting = {
-        format = lspkind.cmp_format({
-            mode = 'symbol', -- show only symbol annotations
-            maxwidth = 50, -- prevent the popup from showing more than provided characters (e.g 50 will not show more than 50 characters)
-            ellipsis_char = '...', -- when popup menu exceed maxwidth, the truncated part would show ellipsis_char instead (must define maxwidth first)
-
-            -- The function below will be called before any actual modifications from lspkind
-            -- so that you can provide more controls on popup customization. (See [#30](https://github.com/onsails/lspkind-nvim/pull/30))
-            before = function (entry, vim_item)
-                return vim_item
-            end
-        })
+    -- Lspkind configurations based on option 1. Reference: https://github.com/onsails/lspkind.nvim
+    mode = 'symbol_text',
+    preset = 'codicons',
+    symbol_map = {
+        Text = "",
+        Method = "",
+        Function = "",
+        Constructor = "",
+        Field = "ﰠ",
+        Variable = "",
+        Class = "ﴯ",
+        Interface = "",
+        Module = "",
+        Property = "ﰠ",
+        Unit = "塞",
+        Value = "",
+        Enum = "",
+        Keyword = "",
+        Snippet = "",
+        Color = "",
+        File = "",
+        Reference = "",
+        Folder = "",
+        EnumMember = "",
+        Constant = "",
+        Struct = "פּ",
+        Event = "",
+        Operator = "",
+        TypeParameter = ""
     },
 }
+
+-- `/` cmdline setup.
+cmp.setup.cmdline('/', {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = {
+        { name = 'buffer' }
+    }
+})
+-- `:` cmdline setup.
+cmp.setup.cmdline(':', {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = cmp.config.sources({
+        { name = 'path' }
+    }, {
+            { name = 'cmdline' }
+        })
+})
