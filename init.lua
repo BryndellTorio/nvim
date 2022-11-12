@@ -9,3 +9,5 @@ require('lsp-config.lang-server')
 require('lsp-config.nvim-cmp')
 require('nvim-treesit-conf')
 require('comm-surr')
+require('luasnip-config')
+
