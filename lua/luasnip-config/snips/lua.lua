@@ -1,6 +1,5 @@
 -- NOT YET WORKING!!!!! <<-----------------
 -- creating snippets 
---
 local ls = require 'luasnip'
 
 ls.snippets = {
