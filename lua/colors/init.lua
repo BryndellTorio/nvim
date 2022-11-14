@@ -1,10 +1,7 @@
 -- github reference: https://github.com/ellisonleao/gruvbox.nvim
 
-local set = vim.opt
-
-set.background = 'dark'
-vim.cmd([[colorscheme gruvbox]])
-
+-- setup must be called before loading the colorscheme
+-- Default options:
 require("gruvbox").setup({
   undercurl = true,
   underline = true,
@@ -22,4 +19,6 @@ require("gruvbox").setup({
   dim_inactive = false,
   transparent_mode = false,
 })
+
+vim.o.background = "dark"
 vim.cmd("colorscheme gruvbox")

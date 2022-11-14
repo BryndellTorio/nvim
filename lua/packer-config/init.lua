@@ -1,9 +1,13 @@
-return require('packer').startup(function()
+return require('packer').startup(function(use)
+
     use 'wbthomason/packer.nvim'
-    use 'tpope/vim-surround'
+    use({ "kylechui/nvim-surround", tag = "*"})
+    use 'terrortylor/nvim-comment'
     use 'ellisonleao/gruvbox.nvim'
-    use 'nvim-tree/nvim-web-devicons'
+
+
     use 'nvim-tree/nvim-tree.lua'
+    use 'nvim-tree/nvim-web-devicons'
     use 'nvim-treesitter/nvim-treesitter'
 
     use 'neovim/nvim-lspconfig'

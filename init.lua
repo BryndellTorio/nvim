@@ -2,9 +2,11 @@
 
 require('packer-config')
 require('settings')
-require('mappings')
 require('colors')
+require('plugin-config')
+require('mappings')
 require('nvim-tree-config')
+require('nvim-treesit-conf')
 require('lsp-config.lang-server')
 require('lsp-config.nvim-cmp')
-require('nvim-treesit-conf')
+
