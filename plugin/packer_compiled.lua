@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
     url = "https://github.com/onsails/lspkind.nvim"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
   ["mason.nvim"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",

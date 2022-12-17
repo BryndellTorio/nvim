@@ -39,6 +39,14 @@ local lsp_flags = {
     debounce_text_changes = 150,
 }
 
+require('lspconfig')['clangd'].setup{
+    flags = lsp_flags,
+    capabilities = capabilities,
+    clang = {
+        excludeArgs = { "-fno-reorder-functions"} ;
+    };
+}
+
 require('lspconfig')['pyright'].setup{
     on_attach = on_attach,
     flags = lsp_flags,

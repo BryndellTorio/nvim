@@ -18,5 +18,8 @@ return require('packer').startup(function()
     use 'rafamadriz/friendly-snippets'
 
     use 'onsails/lspkind.nvim'
-    use 'williamboman/mason.nvim'
+    use {
+        'williamboman/mason.nvim',
+        'williamboman/mason-lspconfig.nvim',
+    }
 end)

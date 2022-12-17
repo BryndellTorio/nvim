@@ -7,7 +7,5 @@ ls.snippets = {
         ls.parser.parse_snippet("expand", "--this is what was expanded"),
     },
     lua = {
-
     },
 }
-
