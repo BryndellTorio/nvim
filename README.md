@@ -1,13 +1,17 @@
-DATE: November 6, 2022
-TIME: 8:37 pm 
+# Nvim Config
 
-My personal nvim config.
+## Bug fixed
++ Refactoring nvim config to fix go to definitions of nvim.
+    - The bug is now **fixed** . ***Config***  is more organized. I am loving the experience so far.
++ Ensure marksman has been installed locally. 
+    - Mason installation will still relay into a marksman.exe which is in local $PATH.
 
-TODO lIST: Work with integrating cmp smoothly.     
+You can access the [reference](https://www.youtube.com/watch?v=w7i4amO_zaE) by clicking this link.
 
-DATE: November 8, 2022
-TIME: 8:31 am
+| Hello   | There!    |
+|--------------- | --------------- |
+| I am using builtin   | functionality of   |
+| functionality of   | Super useful!   |
+| I want to understand   | more of vim   |
+| This is sweet!   | Satisfied user!   |
 
->>> Play with mason.nvim.
->>> Check if lua-language-server is needed local installed or not. remove if not needed.
->>> Make lua completion solid.

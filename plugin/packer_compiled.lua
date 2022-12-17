@@ -114,10 +114,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
-  ["lspkind.nvim"] = {
+  ["lsp-zero.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind.nvim",
-    url = "https://github.com/onsails/lspkind.nvim"
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
+    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -134,40 +134,40 @@ _G.packer_plugins = {
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-comment"] = {
-    loaded = true,
-    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-comment",
-    url = "https://github.com/terrortylor/nvim-comment"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-surround"] = {
-    loaded = true,
-    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-surround",
-    url = "https://github.com/kylechui/nvim-surround"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-web-devicons"] = {
-    loaded = true,
-    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
