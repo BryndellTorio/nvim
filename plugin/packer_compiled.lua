@@ -135,10 +135,35 @@ _G.packer_plugins = {
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neodev.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neodev.nvim",
+    url = "https://github.com/folke/neodev.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-python"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-python",
+    url = "https://github.com/mfussenegger/nvim-dap-python"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "C:\\Users\\bryndell.torio\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

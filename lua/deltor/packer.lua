@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
             require('Comment').setup()
         end
     }
+
     use({
         "kylechui/nvim-surround",
         tag = "*", -- Use for stability; omit to use `main` branch for the latest features
@@ -52,4 +53,13 @@ return require('packer').startup(function(use)
             })
         end
     })
+
+    use ({
+        "rcarriga/nvim-dap-ui",
+        requires = {"mfussenegger/nvim-dap"}
+    })
+
+    use "folke/neodev.nvim"
+    use "mfussenegger/nvim-dap-python"
+    use "theHamsta/nvim-dap-virtual-text"
 end)
