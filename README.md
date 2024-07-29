@@ -7,3 +7,4 @@ Dependencies:
 
 - Python 3
 - NodeJS
+- Rust(Cargo)
