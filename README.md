@@ -1,10 +1,3 @@
-# 💤 LazyVim
+REFERENCES:
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
-
-Dependencies:
-
-- Python 3
-- NodeJS
-- Rust(Cargo)
+https://www.youtube.com/watch?v=87AXw9Quy9U&list=PLx2ksyallYzW4WNYHD9xOFrPRYGlntAft

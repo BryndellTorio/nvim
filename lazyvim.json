@@ -1,9 +1,0 @@
-{
-  "extras": [
-    "lazyvim.plugins.extras.lang.cmake"
-  ],
-  "news": {
-    "NEWS.md": "6258"
-  },
-  "version": 6
-}
