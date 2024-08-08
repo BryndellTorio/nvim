@@ -43,7 +43,7 @@ require("lazy").setup({
                         node_decremental = "<leader>sd",
                     },
                 },
-                
+
                 textobjects = {
                     select = {
                         enable = true,
@@ -63,9 +63,9 @@ require("lazy").setup({
                             ["as"] = { query = "@scope", query_group = "locals", desc = "Select language scope" },
                         },
                         selection_modes = {
-                            ['@parameter.outer'] = 'v', -- charwise
-                            ['@function.outer'] = 'v', -- linewise
-                            ['@class.outer'] = '<c-v>', -- blockwise
+                            ["@parameter.outer"] = "v", -- charwise
+                            ["@function.outer"] = "v", -- linewise
+                            ["@class.outer"] = "<c-v>", -- blockwise
                         },
                         include_surrounding_whitespace = true,
                     },
